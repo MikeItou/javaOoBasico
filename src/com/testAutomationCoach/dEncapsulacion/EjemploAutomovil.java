@@ -3,15 +3,15 @@ package com.testAutomationCoach.dEncapsulacion;
 public class EjemploAutomovil {
 
 	public static void main(String[] args) {
-		Automovil a1 = new Automovil();
-		a1.acelerar();
-		a1.frenar();
-		a1.retroceder();
+		Automovil ford = new Automovil();
+		ford.acelerar();
+		ford.frenarTotal();
+		ford.retroceder();
 
-		Automovil a2 = new Automovil("Chrysler", 250.0, "Automatico", 5, 4);
-		a2.acelerar();
-		a2.frenar();
-		a2.retroceder();
+		Automovil ferrari = new Automovil("ferrari", 500.0,"Manual",2,4,120.0);
+		ferrari.acelerar();
+		ferrari.frenarTotal();
+		ferrari.retroceder();
 	}
 
 }
